@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/academia-de-ciencias/static/css/main.cc11c1d9.chunk.css",
-    "main.js": "/academia-de-ciencias/static/js/main.aadedf65.chunk.js",
-    "main.js.map": "/academia-de-ciencias/static/js/main.aadedf65.chunk.js.map",
+    "main.js": "/academia-de-ciencias/static/js/main.ab5e99bd.chunk.js",
+    "main.js.map": "/academia-de-ciencias/static/js/main.ab5e99bd.chunk.js.map",
     "runtime-main.js": "/academia-de-ciencias/static/js/runtime-main.5f85ec53.js",
     "runtime-main.js.map": "/academia-de-ciencias/static/js/runtime-main.5f85ec53.js.map",
     "static/css/2.d302b58a.chunk.css": "/academia-de-ciencias/static/css/2.d302b58a.chunk.css",
@@ -27,6 +27,6 @@
     "static/css/2.d302b58a.chunk.css",
     "static/js/2.2b5a42b6.chunk.js",
     "static/css/main.cc11c1d9.chunk.css",
-    "static/js/main.aadedf65.chunk.js"
+    "static/js/main.ab5e99bd.chunk.js"
   ]
 }
