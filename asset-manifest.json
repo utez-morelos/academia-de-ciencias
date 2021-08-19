@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/academia-de-ciencias/static/css/main.cc11c1d9.chunk.css",
-    "main.js": "/academia-de-ciencias/static/js/main.ab5e99bd.chunk.js",
-    "main.js.map": "/academia-de-ciencias/static/js/main.ab5e99bd.chunk.js.map",
+    "main.css": "/academia-de-ciencias/static/css/main.d78e2c92.chunk.css",
+    "main.js": "/academia-de-ciencias/static/js/main.4a84c602.chunk.js",
+    "main.js.map": "/academia-de-ciencias/static/js/main.4a84c602.chunk.js.map",
     "runtime-main.js": "/academia-de-ciencias/static/js/runtime-main.5f85ec53.js",
     "runtime-main.js.map": "/academia-de-ciencias/static/js/runtime-main.5f85ec53.js.map",
     "static/css/2.d302b58a.chunk.css": "/academia-de-ciencias/static/css/2.d302b58a.chunk.css",
-    "static/js/2.2b5a42b6.chunk.js": "/academia-de-ciencias/static/js/2.2b5a42b6.chunk.js",
-    "static/js/2.2b5a42b6.chunk.js.map": "/academia-de-ciencias/static/js/2.2b5a42b6.chunk.js.map",
+    "static/js/2.284c540b.chunk.js": "/academia-de-ciencias/static/js/2.284c540b.chunk.js",
+    "static/js/2.284c540b.chunk.js.map": "/academia-de-ciencias/static/js/2.284c540b.chunk.js.map",
     "index.html": "/academia-de-ciencias/index.html",
     "static/css/2.d302b58a.chunk.css.map": "/academia-de-ciencias/static/css/2.d302b58a.chunk.css.map",
-    "static/css/main.cc11c1d9.chunk.css.map": "/academia-de-ciencias/static/css/main.cc11c1d9.chunk.css.map",
-    "static/js/2.2b5a42b6.chunk.js.LICENSE.txt": "/academia-de-ciencias/static/js/2.2b5a42b6.chunk.js.LICENSE.txt",
+    "static/css/main.d78e2c92.chunk.css.map": "/academia-de-ciencias/static/css/main.d78e2c92.chunk.css.map",
+    "static/js/2.284c540b.chunk.js.LICENSE.txt": "/academia-de-ciencias/static/js/2.284c540b.chunk.js.LICENSE.txt",
     "static/media/Academia.86f05062.png": "/academia-de-ciencias/static/media/Academia.86f05062.png",
     "static/media/Archivofisica.ea24477a.png": "/academia-de-ciencias/static/media/Archivofisica.ea24477a.png",
     "static/media/Archivoquimica.65b3ed3b.png": "/academia-de-ciencias/static/media/Archivoquimica.65b3ed3b.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.5f85ec53.js",
     "static/css/2.d302b58a.chunk.css",
-    "static/js/2.2b5a42b6.chunk.js",
-    "static/css/main.cc11c1d9.chunk.css",
-    "static/js/main.ab5e99bd.chunk.js"
+    "static/js/2.284c540b.chunk.js",
+    "static/css/main.d78e2c92.chunk.css",
+    "static/js/main.4a84c602.chunk.js"
   ]
 }
