@@ -1,28 +1,22 @@
 {
   "files": {
-    "main.css": "/academia-de-ciencias/static/css/main.29169d57.chunk.css",
-    "main.js": "/academia-de-ciencias/static/js/main.4b82b223.chunk.js",
-    "main.js.map": "/academia-de-ciencias/static/js/main.4b82b223.chunk.js.map",
+    "main.css": "/academia-de-ciencias/static/css/main.d8ee2fc5.chunk.css",
+    "main.js": "/academia-de-ciencias/static/js/main.94ab82bd.chunk.js",
+    "main.js.map": "/academia-de-ciencias/static/js/main.94ab82bd.chunk.js.map",
     "runtime-main.js": "/academia-de-ciencias/static/js/runtime-main.5f85ec53.js",
     "runtime-main.js.map": "/academia-de-ciencias/static/js/runtime-main.5f85ec53.js.map",
     "static/css/2.d302b58a.chunk.css": "/academia-de-ciencias/static/css/2.d302b58a.chunk.css",
-    "static/js/2.9b6b07b0.chunk.js": "/academia-de-ciencias/static/js/2.9b6b07b0.chunk.js",
-    "static/js/2.9b6b07b0.chunk.js.map": "/academia-de-ciencias/static/js/2.9b6b07b0.chunk.js.map",
-    "8804a9bfe58bb63c1b000bdc6fac007e.js": "/academia-de-ciencias/8804a9bfe58bb63c1b000bdc6fac007e.js",
-    "8804a9bfe58bb63c1b000bdc6fac007e.js.LICENSE.txt": "/academia-de-ciencias/8804a9bfe58bb63c1b000bdc6fac007e.js.LICENSE.txt",
+    "static/js/2.cfc34e50.chunk.js": "/academia-de-ciencias/static/js/2.cfc34e50.chunk.js",
+    "static/js/2.cfc34e50.chunk.js.map": "/academia-de-ciencias/static/js/2.cfc34e50.chunk.js.map",
     "index.html": "/academia-de-ciencias/index.html",
     "static/css/2.d302b58a.chunk.css.map": "/academia-de-ciencias/static/css/2.d302b58a.chunk.css.map",
-    "static/css/main.29169d57.chunk.css.map": "/academia-de-ciencias/static/css/main.29169d57.chunk.css.map",
-    "static/js/2.9b6b07b0.chunk.js.LICENSE.txt": "/academia-de-ciencias/static/js/2.9b6b07b0.chunk.js.LICENSE.txt",
-    "static/media/AJ_Chiapas_Beatriz.f8326d6f.pdf": "/academia-de-ciencias/static/media/AJ_Chiapas_Beatriz.f8326d6f.pdf",
-    "static/media/AJ_Chiapas_Puig.cbc7b788.pdf": "/academia-de-ciencias/static/media/AJ_Chiapas_Puig.cbc7b788.pdf",
+    "static/css/main.d8ee2fc5.chunk.css.map": "/academia-de-ciencias/static/css/main.d8ee2fc5.chunk.css.map",
+    "static/js/2.cfc34e50.chunk.js.LICENSE.txt": "/academia-de-ciencias/static/js/2.cfc34e50.chunk.js.LICENSE.txt",
     "static/media/Academia.86f05062.png": "/academia-de-ciencias/static/media/Academia.86f05062.png",
     "static/media/Archivofisica.ea24477a.png": "/academia-de-ciencias/static/media/Archivofisica.ea24477a.png",
     "static/media/Archivoquimica.65b3ed3b.png": "/academia-de-ciencias/static/media/Archivoquimica.65b3ed3b.png",
     "static/media/header.css": "/academia-de-ciencias/static/media/Youtubw-normal.8d117c1d.png",
     "static/media/H_1-11_2.697b22ba.png": "/academia-de-ciencias/static/media/H_1-11_2.697b22ba.png",
-    "static/media/OHSA_AJ Chiapas.53660807.pdf": "/academia-de-ciencias/static/media/OHSA_AJ Chiapas.53660807.pdf",
-    "static/media/PaperTelecommunication.5130969d.pdf": "/academia-de-ciencias/static/media/PaperTelecommunication.5130969d.pdf",
     "static/media/inventorApplications.css": "/academia-de-ciencias/static/media/Roboto-Black.2a428584.ttf",
     "static/media/table.css": "/academia-de-ciencias/static/media/Roboto-Light.8be2d148.ttf",
     "static/media/categories.css": "/academia-de-ciencias/static/media/Roboto-Regular.a8d6ac03.ttf"
@@ -30,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.5f85ec53.js",
     "static/css/2.d302b58a.chunk.css",
-    "static/js/2.9b6b07b0.chunk.js",
-    "static/css/main.29169d57.chunk.css",
-    "static/js/main.4b82b223.chunk.js"
+    "static/js/2.cfc34e50.chunk.js",
+    "static/css/main.d8ee2fc5.chunk.css",
+    "static/js/main.94ab82bd.chunk.js"
   ]
 }
