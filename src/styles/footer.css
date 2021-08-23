@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Roboto Black";
+  src: local("RobotoBlack"), url("../fonts/Roboto-Black.ttf") format("truetype");
+}
+
+.more-footer {
+  font-family: "Roboto Black";
+  width: 1155px;
+  padding-left: 65px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.footer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: large;
+  color: white;
+  width: 980px;
+  height: 100px;
+  position: absolute;
+  background-color: #1d4b8d;
+}
+
+.p-jefe {
+  position: absolute;
+  top: 5px;
+  margin-left: 460px;
+}
+
+.p-jefe-academic {
+  position: absolute;
+  top: 25px;
+  margin-left: 460px;
+}
+
+.p-email-p {
+  position: absolute;
+  margin-left: 460px;
+  top: 50px;
+}
+
+.p-email {
+  position: absolute;
+  margin-left: 460px;
+  top: 70px;
+}
+
+.p-coordinador {
+  position: absolute;
+  top: 5px;
+  margin-right: 430px;
+}
+
+.p-name-coordinador {
+  position: absolute;
+  top: 25px;
+  margin-right: 430px;
+}
+
+.p-email-c {
+  position: absolute;
+  top: 50px;
+  margin-right: 430px;
+}
+
+.p-email-j {
+  position: absolute;
+  top: 70px;
+  margin-right: 430px;
+}
+
+.p-phone {
+  position: absolute;
+  margin-left: 25px;
+  top: 48px;
+}
+
+.phone {
+  margin-left: 25px;
+}
+
+.footer-movil {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .more-footer {
+    display: none;
+  }
+
+  .footer-movil {
+    width: 100%;
+    height: 20vh;
+    background-color: #1d4b8d;
+    color: white;
+    display: inherit;
+    margin-top: 40px;
+    bottom: 0;
+    position: relative;
+    padding-top: 10px;
+    font-size: 70%;
+  }
+
+  .movil-footer-style-1 {
+    font-family: "Roboto Black";
+    padding-left: 5%;
+  }
+
+  .movil-footer-style-2 {
+    display: flex;
+    font-family: "Roboto Black";
+    position: absolute;
+    top: 30px;
+    padding-left: 5%;
+  }
+
+  .movil-footer-style-3 {
+    display: flex;
+    font-family: "Roboto Black";
+    position: absolute;
+    top: 50px;
+    padding-left: 5%;
+  }
+
+  .movil-footer-style-4 {
+    display: flex;
+    font-family: "Roboto Black";
+    position: absolute;
+    top: 70px;
+    padding-left: 5%;
+  }
+
+  .movil-footer-style-5 {
+    display: flex;
+    font-family: "Roboto Black";
+    position: absolute;
+    top: 90px;
+    padding-left: 5%;
+  }
+}

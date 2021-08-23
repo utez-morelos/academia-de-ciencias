@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Roboto Black";
+  src: local("RobotoBlack"), url("../fonts/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: local("RobotoLight"), url("../fonts/Roboto-Light.ttf") format("truetype");
+}
+
+#close {
+  background-color: #00aa83;
+  margin-left: 5px;
+  border-radius: 100px;
+  width: 70px;
+  height: 40px;
+  color: white;
+  border-width: 0px;
+}
+
+#btn-desplegue {
+  background-color: #00aa83;
+  border-width: 0px;
+  margin-right: 8px;
+  border-radius: 100px;
+  width: 105px;
+  height: 40px;
+  color: white;
+}
+.scroll {
+  overflow-y: auto;
+}
+.letter {
+  font-family: "Roboto Black";
+}
+
+.regular {
+  font-family: "Roboto Light";
+}

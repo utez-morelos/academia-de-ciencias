@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Roboto Black";
+  src: local("RobotoBlack"), url("../fonts/Roboto-Black.ttf") format("truetype");
+}
+
+.more-content-button {
+  font-family: "Roboto Black";
+  width: 1155px;
+  padding-left: 65px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.btn-menu {
+  background-color: #00aa83;
+  color: white;
+  border-radius: 100px;
+  font-size: 20px;
+  width: 150px;
+  height: 150px;
+  border-width: 0px;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-disabled {
+  background-color: #eee;
+  border-radius: 100px;
+  font-size: 20px;
+  width: 150px;
+  height: 150px;
+  border-width: 0px;
+}
+
+.btn-menu:hover {
+  background-color: #1d4b8d;
+  box-shadow: 0 0 10px 0 #1d4b8d inset, 0 0 10px 4px #1d4b8d;
+}
+
+.staff {
+  margin-left: 415px;
+}
+
+.docente {
+  display: flex;
+  padding-left: 437px;
+  padding-top: 20px;
+}
+
+.chemistry {
+  margin-left: 177px;
+  position: absolute;
+  top: 1px;
+}
+
+.physical {
+  position: absolute;
+}
+
+.applications {
+  margin-left: 177px;
+}
+
+.activitie {
+  margin-left: 468px;
+}
+
+.one-div {
+  padding-left: 250px;
+  position: absolute;
+  top: 90px;
+}
+
+.two-div {
+  margin-top: 70px;
+  padding-left: 180px;
+}
+
+.three-div {
+  padding-left: 250px;
+}
+
+.four-div {
+  position: absolute;
+  margin-left: 415px;
+  top: 470px;
+}
+
+.image-logo {
+  position: absolute;
+  top: 280px;
+  margin-left: 155px;
+  width: 310px;
+  height: 80px;
+}
+
+.movil-menu {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .more-content-button {
+    margin-left: 10px;
+    display: none;
+  }
+
+  .not-scroll-menu {
+    overflow-x: hidden;
+  }
+
+  .movil-menu {
+    display: initial;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    font-family: "Roboto Black";
+  }
+
+  .btn-movil {
+    background-color: #00aa83;
+    color: white;
+    font-size: 80%;
+    border-width: 0px;
+    border-radius: 100px;
+    width: 40vw;
+    height: 6vh;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+  .btn-movil:hover {
+    background-color: #1d4b8d;
+    box-shadow: 0 0 10px 0 #1d4b8d inset, 0 0 10px 4px #1d4b8d;
+  }
+
+  .display-menu {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .space-movil {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

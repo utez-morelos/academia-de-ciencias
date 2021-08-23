@@ -1,0 +1,55 @@
+.content-download-application {
+  width: 1020px;
+  padding-left: 80px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.btn-descripcion {
+  font-family: "Roboto Regular";
+  border-radius: 100px;
+  border-width: 0px;
+  background-color: #00aa83;
+  color: white;
+  height: 30px;
+  width: 60px;
+}
+
+.download-application {
+  border-radius: 100px;
+  border-width: 0px;
+  background-color: #1c447c;
+  color: white;
+  height: 30px;
+  width: 60px;
+  white-space: nowrap;
+}
+
+.styleLetterBlack {
+  font-family: "Roboto Black";
+}
+
+.paginar{
+  width: 40px;
+  margin-left: 47%;
+}
+@media screen and (max-width: 720px) {
+  .content-download-application {
+    width: 80vw;
+    padding-left: 3%;
+  }
+
+  .movil-table {
+    width: 110%;
+  }
+
+  .styleLetterBlack {
+    font-family: "Roboto Black";
+    font-size: 20px;
+    margin-left: 8%;
+  }
+
+  .hr {
+    width: 85vw;
+  }
+}

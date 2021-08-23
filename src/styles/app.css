@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Roboto Black";
+  src: local("RobotoBlack"), url("../fonts/Roboto-Black.ttf") format("truetype");
+}
+
+.btn-floating {
+  font-family: "Roboto Black";
+  position: fixed;
+  background-color: #1d4b8d;
+  border-width: 0px;
+  color: white;
+  width: 90px;
+  height: 40px;
+  bottom: 10px;
+  margin-left: 48%;
+  border-radius: 100px;
+}
+
+.btn-floating:hover {
+  background-color: #00aa83;
+}
+
+.notFound {
+  display: block;
+  margin: auto;
+}
+
+.color-main {
+  background: rgb(249, 249, 249);
+}
+
+.header {
+  background: rgb(249, 249, 249);
+}
+
+.btn-floating-movil {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .btn-floating {
+    display: none;
+  }
+
+  .btn-floating-movil {
+    display: initial;
+    font-family: "Roboto Black";
+    position: fixed;
+    background-color: #1d4b8d;
+    border-width: 0px;
+    color: white;
+    width: 42px;
+    height: 42px;
+    bottom: 20px;
+    margin-left: 3%;
+    border-radius: 100px;
+  }
+
+  .btn-floating-movil:hover {
+    background-color: #00aa83;
+  }
+
+  .color-main{
+    overflow: hidden;
+  }
+}

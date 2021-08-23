@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Roboto Black";
+  src: local("RobotoBlack"), url("../fonts/Roboto-Black.ttf") format("truetype");
+}
+
+.letter-header {
+  font-family: "Roboto Black";
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header-info {
+  position: absolute;
+  width: 1155px;
+  top: 1%;
+  height: 200px;
+}
+
+.header-info-movil {
+  display: none;
+}
+
+.table-one-movil{
+  display: none;
+}
+
+.header-style {
+  width: 1050px;
+  padding-left: 10px;
+}
+
+.list-inline > li:first-child {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.tabla-one {
+  width: 1155px;
+}
+
+.table-two {
+  display: flex;
+  flex-direction: column;
+  padding-left: 170px;
+  padding-bottom: 15px;
+}
+
+.tr-one {
+  height: 83px;
+}
+
+.tr-two {
+  height: 63px;
+}
+
+.td-one {
+  width: 731px;
+  height: 83px;
+}
+
+.td-two {
+  width: 10px;
+  height: 83px;
+}
+
+.td-three {
+  width: 731px;
+  height: 63px;
+}
+
+.td-four {
+  width: 10px;
+  height: 63px;
+}
+
+.blank-one {
+  width: 250px;
+  height: 80px;
+}
+
+.blank-two {
+  width: 250px;
+  height: 50px;
+}
+
+.movil-logo {
+  display: none;
+}
+.twitter {
+  background: url("../images/Twitter-normal.png") no-repeat;
+  background-size: contain;
+  background-position: 0;
+  height: 45px;
+}
+
+.twitter:hover {
+  background: url("../images/Twitter-azul.png") no-repeat;
+  background-size: contain;
+  background-position: 0;
+}
+
+.youtube {
+  background: url("../images/Youtubw-normal.png") no-repeat;
+  background-size: contain;
+  background-position: 0;
+  height: 45px;
+}
+
+.youtube:hover {
+  background: url("../images/Youtube-azul.png") no-repeat;
+  background-size: contain;
+  background-position: 0;
+}
+
+.facebook {
+  background: url("../images/Facebook-normal.png") no-repeat;
+  background-size: contain;
+  background-position: 0;
+  height: 45px;
+}
+
+.facebook:hover {
+  background: url("../images/Facebook-azul.png") no-repeat;
+  background-size: contain;
+  background-position: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .movil-main {
+    overflow-x: hidden;
+  }
+
+  .header-style {
+    display: none;
+  }
+
+  .header-info {
+    display: none;
+  }
+
+  .movil-logo {
+    display: initial;
+    width: 125%;
+    margin-right: 20px;
+  }
+
+  .header-info-movil {
+    display: initial;
+  }
+
+  .table-one-movil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 80%;
+  }
+
+  .movil-icon {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+}

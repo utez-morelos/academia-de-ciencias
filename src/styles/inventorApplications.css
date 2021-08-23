@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Roboto Regular";
+  src: local("RobotoRegular"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Black";
+  src: local("RobotoBlack"), url("../fonts/Roboto-Black.ttf") format("truetype");
+}
+
+.content-inventor {
+  width: 1020px;
+  padding-left: 80px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.title-applications {
+  font-family: "Roboto Black";
+}
+
+.text-applications {
+  font-family: "Roboto Regular";
+}
+
+.application-inventor {
+  width: 400px;
+  height: 300px;
+}
+
+.application-movil {
+  display: none;
+}
+
+.carousel-appli{
+  width: 500px;
+  height: 310px;
+}
+
+
+.desc-movil {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .content-inventor {
+    display: none;
+  }
+
+  .desc-movil {
+    display: inherit;
+    width: 100%;
+  }
+
+  .desc-deskop {
+    display: none;
+  }
+
+  .application-inventor {
+    display: none;
+  }
+
+  .application-movil {
+    width: 90vw;
+    margin-top: 10px;
+    margin-left: 5%;
+    display: inherit;
+  }
+}

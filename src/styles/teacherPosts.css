@@ -1,0 +1,163 @@
+.img-container {
+  margin-left: 70px;
+  width: 450px;
+  height: 300px;
+  border-radius: 60px;
+  position: relative;
+}
+
+.img-container .container-post {
+  font-family: "Roboto Black";
+  font-size: 20px;
+  overflow-y: auto;
+  color: #fff;
+  margin: auto;
+  white-space: initial;
+  text-align: center;
+  background: #000;
+  transition: opacity 0.2s linear;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  align-items: center;
+  padding-top: 80px;
+  border-radius: 60px;
+}
+
+.btn-posts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-posts {
+  display: flex;
+  margin-bottom: 20px;
+ 
+}
+.article {
+  margin-top: 10px;
+  background-color: #00aa83;
+  color: white;
+  border-radius: 20px;
+  width: 120px;
+  border-width: 0px;
+  font-size: 16px;
+
+}
+
+.article:hover{
+  background-color: #1d4b8d;
+}
+
+.pages-pdf {
+  font-family: "Roboto Black";
+  display: flex;
+  justify-content: center;
+}
+
+.btn-posts-option {
+  display: flex;
+  justify-content: center;
+}
+
+.img-post-pdf{
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.div-image{
+  display: flex;
+  justify-content: center;
+}
+.btn-options {
+  background-color: #00aa83;
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  border-width: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  font-family: "Roboto Black";
+}
+
+.btn-blocked {
+  background-color: #00aa83;
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  border-width: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  font-family: "Roboto Black";
+  filter: brightness(70%);
+}
+
+.text-post {
+  width: 450px;
+}
+
+.img-container:hover .container-post {
+  opacity: 0.75;
+}
+
+.image-post {
+  width: 450px;
+  height: 300px;
+  border-radius: 60px;
+}
+
+.img-container-movil {
+  display: none;
+}
+
+.pdf {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+  .img-container {
+    display: none;
+  }
+
+  .container-post {
+    display: none;
+  }
+
+  .text-post {
+    display: none;
+  }
+
+  .image-post {
+    display: none;
+  }
+
+  .img-container-movil {
+    margin-top: 10px;
+    display: inherit;
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+  }
+
+  .image-post-movil {
+    width: 100vw;
+  }
+
+  .text-post-movil {
+    font-family: "Roboto Regular";
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    overflow-y: auto;
+  }
+}

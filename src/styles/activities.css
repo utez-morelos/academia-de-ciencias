@@ -1,0 +1,23 @@
+.activite-web {
+  margin-top: 30px;
+  padding-left: 65px;
+}
+
+.activitie-movil {
+  display: none;
+}
+
+.activitie-container{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 720px) {
+  .activite-web {
+    display: none;
+  }
+
+  .activitie-movil {
+    display: inherit;
+    margin-top: 20px;
+  }
+}

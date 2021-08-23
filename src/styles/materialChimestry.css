@@ -1,0 +1,82 @@
+.content-material-chimestry {
+  display: flex;
+  margin-top: 20px;
+  width: 970px;
+  margin-left: 65px;
+  white-space: nowrap;
+  overflow-x: auto;
+  margin-bottom: 50px;
+}
+
+.title-size {
+  width: 1040px;
+  padding-left: 65px;
+  margin-top: 10px;
+}
+
+.instalation-lab {
+  margin-top: 30px;
+  padding-left: 65px;
+}
+
+.lab-chemistry {
+  width: 500px;
+  height: 310px;
+}
+
+.lab-chemistry-movil {
+  display: none;
+}
+
+.search {
+  margin-left: 800px;
+  margin-top: 10px;
+}
+
+.card-chemistry {
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.description-card {
+  white-space: initial;
+  font-family: "Roboto Light";
+  height: 130px;
+}
+
+@media screen and (max-width: 720px) {
+  .instalation-lab {
+    display: none;
+  }
+
+  .lab-chemistry-movil {
+    display: inherit;
+    width: 90vw;
+    margin-top: 10px;
+    margin-left: 1%;
+  }
+
+  .content-material-chimestry {
+    width: 90vw;
+    margin-left: 0px;
+  }
+
+  .search {
+    width: 90vw;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+
+  .lab-chemistry {
+    display: none;
+  }
+
+  .title-size {
+    width: 90vw;
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+}

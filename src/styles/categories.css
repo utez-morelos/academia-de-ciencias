@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Roboto Regular";
+  src: local("RobotoRegular"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+.content-categorie {
+  width: 1040px;
+  padding-left: 65px;
+  margin-top: 10px;
+}
+
+.content-card {
+  font-family: "Roboto Regular";
+  white-space: initial;
+}
+
+.center-cards {
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+
+.categorie {
+  display: inline-block;
+  margin: 10px;
+}
+
+.not-scroll {
+  overflow-y: hidden;
+}
+
+.btn-content {
+  justify-content: center;
+  background-color: #00aa83;
+  height: 40px;
+  width: 110px;
+  color: white;
+  border-width: 0px;
+  border-radius: 100px;
+}
+
+.btn-cerrar {
+  margin-top: 10px;
+  background-color: #1d4b8d;
+  border-radius: 100px;
+  border-width: 0px;
+  height: 40px;
+  width: 100px;
+  color: white;
+}
+
+.center-cards-movil {
+  display: none;
+}
+.content-categorie-movil {
+  display: none;
+}
+@media screen and (max-width: 720px) {
+  .content-categorie {
+    display: none;
+  }
+
+  .center-cards-movil {
+    display: inherit;
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 30px;
+  }
+
+  .categorie-movil {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .content-categorie-movil {
+    display: inherit;
+    width: 100%;
+  }
+}

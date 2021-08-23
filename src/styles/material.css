@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Roboto Regular";
+  src: local("RobotoRegular"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Black";
+  src: local("RobotoBlack"), url("../fonts/Roboto-Black.ttf") format("truetype");
+}
+
+.contenedor-material {
+  width: 1040px;
+  padding-left: 65px;
+}
+
+.btn-descarga {
+  border-radius: 100px;
+  border-width: 0px;
+  background-color: #1d4b8d;
+  color: white;
+  height: 30px;
+  width: 60px;
+}
+
+/* Videos- chimestry */
+
+.content-videos-chimestry {
+  width: 975px;
+}
+
+.content-videos-chimestry > h3 {
+  font-family: "Roboto Black";
+}
+
+.btn-video {
+  justify-content: center;
+  background-color: #00aa83;
+  height: 40px;
+  width: 110px;
+  color: white;
+  border-width: 0px;
+  border-radius: 100px;
+}
+
+.content-video-chimestry {
+  font-family: "Roboto Regular";
+}
+
+/* videos-physical */
+.content-videos-physical {
+  width: 975px;
+}
+
+.content-video-physical {
+  font-family: "Roboto Regular";
+}
+
+.content-videos-physical > h3 {
+  font-family: "Roboto Black";
+}
+
+@media screen and (max-width: 720px) {
+  .content-videos-chimestry {
+    width: 100%;
+  }
+
+  .content-videos-physical{
+    width: 100%;
+  }
+
+  .image-academic {
+    display: none;
+  }
+}
+
+.center-scroll {
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+
+.material-chimestry {
+  display: inline-block;
+  margin: 10px;
+}
+
+.material-physical {
+  display: inline-block;
+  margin: 10px;
+}
+
+/*  Tabla de descargas todos las categorias */
+
+.container-download {
+  display: flex;
+  margin-bottom: 30px;
+}
+.content-download {
+  width: 500px;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* imagen de quimica */
+
+.image-academic {
+  width: 450px;
+  height: 450px;
+  margin-left: 30px;
+}
+
+/* Boton de descarga de archivos */
+
+.download {
+  background-color: #1c447c;
+  color: white;
+  width: 50px;
+  height: 40px;
+  border-radius: 100px;
+  border-width: 0px;
+}
+
+/* Paginacion */
+
+li {
+  list-style: none;
+}
+
+.paginar {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 10px;
+}

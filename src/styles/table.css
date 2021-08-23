@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Roboto Black";
+  src: local("RobotoBlack"), url("../fonts/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: local("RobotoLight"), url("../fonts/Roboto-Light.ttf") format("truetype");
+}
+
+.contenido-tabla {
+  font-family: "Roboto Black";
+  width: 1040px;
+  padding-left: 65px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.divmargen {
+  margin-top: 30px;
+}
+
+.btn-information {
+  border-width: 0px;
+  border-radius: 20px;
+  height: 80px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.mas-docentes {
+  width: 100px;
+  top: 635px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  margin-left: 6px;
+  position: absolute;
+}
+
+.tabla {
+  width: 550px;
+}
+
+.docente-img {
+  margin-top: 40px;
+  width: 400px;
+  height: 580px;
+  margin-left: 10px;
+}
+
+
+.content-table-movil {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .contenido {
+    width: 600px;
+  }
+
+  .contenido-tabla {
+    display: none;
+  }
+
+  .content-table-movil {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .table-movil {
+    width: 80%;
+  }
+}
